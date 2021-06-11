@@ -9,5 +9,9 @@ export class HeaderComponent implements OnInit {
   title: string = 'Task Tracker';
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void { }
+  
+  toggleAddTask() {
+    
+  }
 }
